@@ -23,7 +23,7 @@ Follow these instructions to set up and run the project locally.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/humayusuf12/weather-app.git
+   git clone https://github.com/humayusuf12/Weather_App.git
    ```
 
 2. Navigate to the project directory:
