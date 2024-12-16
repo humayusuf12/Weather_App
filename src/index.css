@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  background: url("./assets/images/sunset.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul.suggestions:has(li) {
+  opacity: 1;
+  backdrop-filter: blur(16px) saturate(180%);
+  cursor: pointer;
+  background-color: rgba(17, 24, 39, 0.75);
+}
+
+ul.suggestions {
+  opacity: 0;
+}
